@@ -44,9 +44,18 @@ function About() {
             Wings Telecommunication Services specializes in elite network equipment lifecycle management, solar installations, and seamless infrastructure expansion across India.
           </p>
 
+          <div style={{ display: 'grid', gap: '20px', marginBottom: '32px', marginTop: '12px' }}>
+            <div style={{ background: 'rgba(0,200,255,0.05)', padding: '20px', borderRadius: '12px', border: '1px solid rgba(0,200,255,0.1)' }}>
+              <h4 style={{ color: 'var(--cyan)', fontSize: '18px', fontWeight: 700, marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px', fontFamily: 'var(--font-display)' }}>Complete Telecom Solutions</h4>
+              <p style={{ color: 'var(--light)', fontSize: '15px', lineHeight: '1.6' }}>Expert team dedicated to network device installation, safe site decommissioning, equipment dismantling, and rigorous preventive maintenance.</p>
+            </div>
+            <div style={{ background: 'rgba(26,111,212,0.05)', padding: '20px', borderRadius: '12px', border: '1px solid rgba(26,111,212,0.1)' }}>
+              <h4 style={{ color: 'var(--cyan)', fontSize: '18px', fontWeight: 700, marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '1px', fontFamily: 'var(--font-display)' }}>Dedicated Solar Team</h4>
+              <p style={{ color: 'var(--light)', fontSize: '15px', lineHeight: '1.6' }}>Separate, highly-trained division focused solely on solar panel installation and renewable energy integration for telecom sites.</p>
+            </div>
+          </div>
+
           <ul className="about-list" style={{ marginBottom: '40px' }}>
-            <li><strong>Complete Telecom Solutions:</strong> Expert team dedicated to network device installation, safe site decommissioning, equipment dismantling, and rigorous preventive maintenance.</li>
-            <li><strong>Dedicated Solar Team:</strong> Separate, highly-trained division focused solely on solar panel installation and renewable energy integration for telecom sites.</li>
             <li>Operational across All India and globally — covering both urban zones and challenging rural terrains.</li>
             <li>Experienced with major telecom OEMs including Ericsson, Nokia, Huawei, and ZTE.</li>
             <li>Full EHS (Environment, Health, and Safety) and employee safety compliance maintained stringently on every project.</li>
