@@ -28,7 +28,7 @@ function Home() {
         </div>
         <AnimatedSection delay={0.2} className="hero-stats">
           <div className="stat-item"><div className="stat-num">400+</div><div className="stat-label">Sites Completed</div></div>
-          <div className="stat-item"><div className="stat-num">3+</div><div className="stat-label">Years Experience</div></div>
+          <div className="stat-item"><div className="stat-num">5+</div><div className="stat-label">Years Experience</div></div>
           <div className="stat-item"><div className="stat-num">3</div><div className="stat-label">States Active</div></div>
           <div className="stat-item"><div className="stat-num">100%</div><div className="stat-label">EHS Compliant</div></div>
         </AnimatedSection>
