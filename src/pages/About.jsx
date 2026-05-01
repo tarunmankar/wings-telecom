@@ -73,7 +73,7 @@ function About() {
           <div style={{ background: 'rgba(0,200,255,0.05)', borderLeft: '3px solid var(--cyan)', padding: '16px 20px', borderRadius: '0 8px 8px 0', marginBottom: '24px' }}>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', marginBottom: '4px' }}>Our Expert Workforce</h3>
             <div style={{ fontSize: '13px', color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600, marginBottom: '8px' }}>Field Engineers & Technicians</div>
-            <p style={{ fontSize: '14px', color: 'var(--light)', lineHeight: 1.6 }}>Our operations are powered by a dedicated team of <strong>20+ working professionals</strong>, including highly skilled field engineers, certified riggers, and technical specialists. Deployed across various regions, our workforce ensures rapid response times, precise hardware installations, and rigorous adherence to safety standards on every single site.</p>
+            <p style={{ fontSize: '14px', color: 'var(--light)', lineHeight: 1.6 }}>Our core strength is a dedicated team of <strong>20+ working professionals</strong>, including highly skilled field engineers, certified riggers, and technical specialists. Deployed across various regions, our workforce ensures rapid response times, precise hardware installations, and rigorous adherence to safety standards on every single site.</p>
           </div>
         </AnimatedSection>
       </div>
