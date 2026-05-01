@@ -51,21 +51,21 @@ function Careers() {
           <AnimatedSection delay={0.1} className="why-card">
             <div className="why-icon">📡</div>
             <h3>Telecom Field Engineer</h3>
-            <p><strong>Experience:</strong> 2-5 Years<br/><strong>Location:</strong> Gujarat / MP</p>
+            <p><strong>Experience:</strong> 2-5 Years<br/><strong>Location:</strong> All India</p>
             <p style={{marginTop:'10px'}}>Responsible for installation, commissioning, and maintenance of BTS and RRU equipment across tower sites.</p>
           </AnimatedSection>
           
           <AnimatedSection delay={0.2} className="why-card">
             <div className="why-icon">☀️</div>
             <h3>Solar Installation Technician</h3>
-            <p><strong>Experience:</strong> 1-3 Years<br/><strong>Location:</strong> MP</p>
+            <p><strong>Experience:</strong> 1-3 Years<br/><strong>Location:</strong> All India</p>
             <p style={{marginTop:'10px'}}>Expertise in mounting solar panels, wiring, and inverter commissioning for telecom towers.</p>
           </AnimatedSection>
 
           <AnimatedSection delay={0.3} className="why-card">
             <div className="why-icon">🔧</div>
             <h3>Dismantling & Rigger Expert</h3>
-            <p><strong>Experience:</strong> 3+ Years<br/><strong>Location:</strong> Gujarat</p>
+            <p><strong>Experience:</strong> 3+ Years<br/><strong>Location:</strong> All India</p>
             <p style={{marginTop:'10px'}}>Specialist in safe dismantling of heavy telecom equipment and packing for shifting. EHS certification mandatory.</p>
           </AnimatedSection>
         </div>

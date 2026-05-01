@@ -37,10 +37,11 @@ function Contact() {
           <div className="sec-tag">Get In Touch</div>
           <div className="sec-title" style={{marginBottom:'44px',fontSize:'36px'}}>Let's <span className="hl">Build</span> Together.</div>
           <div className="ci-item"><div className="lbl">Company</div><div className="val">Wings Telecommunication Services</div></div>
-          <div className="ci-item"><div className="lbl">Company Head</div><div className="val">Ayush Gawhade</div></div>
-          <div className="ci-item"><div className="lbl">Operations</div><div className="val">Gujarat &amp; Madhya Pradesh, India</div></div>
+          <div className="ci-item"><div className="lbl">MD</div><div className="val">Ravneet Kaur Rajpal</div></div>
+          <div className="ci-item"><div className="lbl">Project Management</div><div className="val">Aayush Kumar</div></div>
+          <div className="ci-item"><div className="lbl">Operations</div><div className="val">All India</div></div>
           <div className="ci-item"><div className="lbl">Phone</div><div className="val"><a href="tel:+918770554404">+91 877 055 4404</a></div></div>
-          <div className="ci-item"><div className="lbl">Email</div><div className="val"><a href="mailto:AyushGawhade@gmail.com">AyushGawhade@gmail.com</a></div></div>
+          <div className="ci-item"><div className="lbl">Email</div><div className="val"><a href="mailto:wingstelecommunicationservices@gmail.com">wingstelecommunicationservices@gmail.com</a></div></div>
           <div className="ci-item"><div className="lbl">Services</div><div className="val" style={{fontSize:'14px',color:'var(--muted)'}}>Installation · Dismantling · Scrap Management · Solar</div></div>
           <div style={{marginTop:'40px',padding:'22px',background:'rgba(0,200,255,0.06)',border:'1px solid rgba(0,200,255,0.15)',borderRadius:'10px'}}>
             <div style={{fontSize:'10px',color:'var(--cyan)',letterSpacing:'2px',textTransform:'uppercase',marginBottom:'6px'}}>Response Time</div>

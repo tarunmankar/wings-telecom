@@ -15,7 +15,7 @@ function Footer() {
             </div>
             <div className="logo-text">Wings<span>Telecommunication Services</span></div>
           </Link>
-          <p>Specialized telecom field services across Gujarat and Madhya Pradesh. 350+ sites. 3+ years. EHS certified.</p>
+          <p>Specialized telecom field services across All India. 400+ sites. 3+ years. EHS certified.</p>
         </div>
         
         <div className="footer-col">

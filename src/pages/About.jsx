@@ -41,17 +41,17 @@ function About() {
           <div className="sec-title" style={{marginBottom:'22px'}}>Led by <span className="hl">Experience.</span><br/>Driven by Excellence.</div>
           
           <div style={{background:'rgba(26,111,212,0.1)', borderLeft:'3px solid var(--cyan)', padding:'16px 20px', borderRadius:'0 8px 8px 0', marginBottom:'24px'}}>
-            <h3 style={{fontFamily:'var(--font-display)', fontSize:'22px', marginBottom:'4px'}}>Ayush Gawhade</h3>
-            <div style={{fontSize:'13px', color:'var(--cyan)', textTransform:'uppercase', letterSpacing:'1px', fontWeight:600, marginBottom:'8px'}}>Chief Technical Officer & Operations Head</div>
-            <p style={{fontSize:'14px', color:'var(--light)', lineHeight:1.6}}>With over <strong>5+ years of core experience</strong> in the telecom industry, Ayush is a highly skilled and <strong>Huawei Certified Telecom Engineer</strong>. He leads all technical and operational strategies at Wings, ensuring seamless execution across every site.</p>
+            <h3 style={{fontFamily:'var(--font-display)', fontSize:'22px', marginBottom:'4px'}}>Aayush Kumar</h3>
+            <div style={{fontSize:'13px', color:'var(--cyan)', textTransform:'uppercase', letterSpacing:'1px', fontWeight:600, marginBottom:'8px'}}>Project Management</div>
+            <p style={{fontSize:'14px', color:'var(--light)', lineHeight:1.6}}>With over <strong>5+ years of core experience</strong> in the telecom industry, Aayush Kumar is a telecom professional with proven expertise in leadership and team management. He excels at driving team performance, ensuring reliable service delivery, and maintaining operational efficiency. With a focus on collaboration and continuous improvement, he contributes to achieving strong business outcomes in dynamic environments.</p>
           </div>
 
-          <p>Under his leadership, Wings Telecommunication Services operates with an exceptionally experienced team of professionals. We are deep experts in the entire lifecycle of telecom hardware.</p>
+          <p>Under the leadership of <strong>MD Ravneet Kaur Rajpal</strong>, Wings Telecommunication Services operates with an exceptionally experienced team of professionals. We are deep experts in the entire lifecycle of telecom hardware.</p>
           
           <ul className="about-list">
             <li><strong>Complete Telecom Solutions:</strong> Expert team dedicated to network device installation, safe site decommissioning, equipment dismantling, and rigorous preventive maintenance.</li>
             <li><strong>Dedicated Solar Team:</strong> Separate, highly-trained division focused solely on solar panel installation and renewable energy integration for telecom sites.</li>
-            <li>Operational across Gujarat and Madhya Pradesh — covering both urban zones and challenging rural terrains.</li>
+            <li>Operational across All India and globally — covering both urban zones and challenging rural terrains.</li>
             <li>Experienced with major telecom OEMs including Ericsson, Nokia, Huawei, and ZTE.</li>
             <li>Full EHS (Environment, Health, and Safety) and employee safety compliance maintained stringently on every project.</li>
           </ul>
