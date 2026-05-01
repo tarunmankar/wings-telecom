@@ -35,10 +35,10 @@ function About() {
             <div className="lbl">Years Experience</div>
           </div>
 
-          <div style={{ marginTop: '24px', textAlign: 'center' }}>
-            <p style={{ fontFamily: 'var(--font-display)', fontSize: '18px', fontWeight: 600, color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '2px', opacity: 0.9 }}>
-              Connecting the Nation's <span style={{ color: 'var(--white)' }}>Future</span>
-            </p>
+          <div style={{ marginTop: '48px', paddingLeft: '8px', paddingRight: '100px', textAlign: 'left' }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '24px', fontWeight: 800, color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '2px', lineHeight: '1.3' }}>
+              Connecting the Nation's <br /><span style={{ color: 'var(--white)', fontWeight: 800 }}>Future</span>
+            </h3>
           </div>
         </AnimatedSection>
 
