@@ -65,7 +65,7 @@ function About() {
 
           <div style={{ background: 'rgba(26,111,212,0.1)', borderLeft: '3px solid var(--cyan)', padding: '16px 20px', borderRadius: '0 8px 8px 0', marginBottom: '24px' }}>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', marginBottom: '4px' }}>Aayush Kumar</h3>
-            <div style={{ fontSize: '13px', color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600, marginBottom: '8px' }}>Project Management</div>
+            <div style={{ fontSize: '13px', color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600, marginBottom: '8px' }}>Project Manager</div>
             <p style={{ fontSize: '14px', color: 'var(--light)', lineHeight: 1.6 }}>With over <strong>5+ years of core experience</strong> in the telecom industry, Aayush Kumar is a telecom professional with proven expertise in leadership and team management. He excels at driving team performance, ensuring reliable service delivery, and maintaining operational efficiency. With a focus on collaboration and continuous improvement, he contributes to achieving strong business outcomes in dynamic environments.</p>
           </div>
         </AnimatedSection>
