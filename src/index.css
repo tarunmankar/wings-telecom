@@ -111,7 +111,7 @@ section{padding:88px var(--px);}
 
 /* ABOUT */
 .about-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;padding:80px var(--px);}
-.about-visual{position:relative;}
+.about-visual{position:sticky; top: 100px;}
 .about-img-box{background:linear-gradient(135deg,var(--navy3),var(--steel));border:1px solid rgba(0,200,255,0.12);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;border-radius:12px;overflow:hidden;position:relative;}
 .about-img-box::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(26,111,212,0.08),transparent);}
 .about-float{position:absolute;bottom:-20px;right:-20px;background:linear-gradient(135deg,var(--blue),var(--blue-light));padding:22px 26px;border-radius:10px;box-shadow:0 8px 32px rgba(26,111,212,0.4);}
