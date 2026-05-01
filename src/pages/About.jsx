@@ -34,6 +34,18 @@ function About() {
             <div className="num">5+</div>
             <div className="lbl">Years Experience</div>
           </div>
+
+          <div style={{ marginTop: '60px', padding: '0 10px' }}>
+            <div style={{ borderLeft: '2px solid var(--cyan)', paddingLeft: '20px', marginBottom: '32px' }}>
+              <h5 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 700, color: 'var(--white)', textTransform: 'uppercase', marginBottom: '6px', letterSpacing: '1px' }}>Nationwide Presence</h5>
+              <p style={{ color: 'var(--muted)', fontSize: '14px', lineHeight: '1.6', maxWidth: '280px' }}>Executing critical telecom projects across every state, from urban metros to remote rural borders.</p>
+            </div>
+            
+            <div style={{ borderLeft: '2px solid var(--blue)', paddingLeft: '20px' }}>
+              <h5 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 700, color: 'var(--white)', textTransform: 'uppercase', marginBottom: '6px', letterSpacing: '1px' }}>Excellence First</h5>
+              <p style={{ color: 'var(--muted)', fontSize: '14px', lineHeight: '1.6', maxWidth: '280px' }}>Uncompromising commitment to international EHS standards and operational precision in every deployment.</p>
+            </div>
+          </div>
         </AnimatedSection>
 
         <AnimatedSection delay={0.2} className="about-text">
