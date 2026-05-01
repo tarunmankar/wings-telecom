@@ -68,6 +68,7 @@ function Contact() {
                 <option value="Solar">Solar Panel Installation</option>
                 <option value="Survey">Site Survey &amp; Planning</option>
                 <option value="Multiple">Multiple Services</option>
+                <option value="Other">Other</option>
               </select>
             </div>
             <div className="form-row">
