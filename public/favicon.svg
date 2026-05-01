@@ -1,4 +1,5 @@
-<svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="21,2 40,12 40,30 21,40 2,30 2,12" fill="#FFFFFF" stroke="#00B0FF" strokeWidth="1.5"/>
-  <text x="21" y="27" textAnchor="middle" fill="#00B0FF" fontSize="16" fontWeight="700" fontFamily="sans-serif">W</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <path d="M50 5 L90 25 L90 75 L50 95 L10 75 L10 25 Z" stroke="#00C8FF" stroke-width="4" fill="#0A1628"/>
+  <path d="M50 5 L90 25 L90 75 L50 95 L10 75 L10 25 Z" stroke="rgba(26,111,212,0.8)" stroke-width="8" style="filter:blur(4px)"/>
+  <text x="50" y="64" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#FFFFFF" text-anchor="middle">W</text>
 </svg>

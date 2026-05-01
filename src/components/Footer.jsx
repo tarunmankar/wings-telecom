@@ -9,11 +9,11 @@ function Footer() {
           <Link to="/" className="logo">
             <div className="logo-icon">
               <svg viewBox="0 0 42 42" fill="none">
-                <polygon points="21,2 40,12 40,30 21,40 2,30 2,12" fill="#FFFFFF" stroke="#00B0FF" strokeWidth="1.5"/>
-                <text x="21" y="27" textAnchor="middle" fill="#00B0FF" fontSize="16" fontWeight="700" fontFamily="Rajdhani,sans-serif">W</text>
+                <polygon points="21,2 40,12 40,30 21,40 2,30 2,12" fill="#0F1F3D" stroke="#00C8FF" strokeWidth="1.5"/>
+                <text x="21" y="27" textAnchor="middle" fill="white" fontSize="16" fontWeight="700" fontFamily="Rajdhani,sans-serif">W</text>
               </svg>
             </div>
-            <div className="logo-text"><span className="outline-logo">WINGS</span><span>Telecommunication Services</span></div>
+            <div className="logo-text">Wings<span>Telecommunication Services</span></div>
           </Link>
           <p>Specialized telecom field services across All India. 400+ sites. 3+ years. EHS certified.</p>
         </div>

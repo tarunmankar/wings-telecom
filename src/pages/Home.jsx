@@ -17,7 +17,7 @@ function Home() {
         <div className="hero-wrap">
           <AnimatedSection className="hero-content">
             <div className="hero-badge"><span className="hero-badge-dot"></span>All India Operations</div>
-            <h1><span className="outline-text">POWERING</span><br/><span className="hl">INDIA'S</span><br/><span className="outline-text">NETWORK</span><br/><span className="outline-text">INFRASTRUCTURE</span></h1>
+            <h1>Powering<br/><span className="hl">India's</span><br/>Network<br/>Infrastructure</h1>
             <p>Specialized telecom field services — equipment installation, dismantling, solar power &amp; scrap management. Trusted across 400+ tower sites.</p>
             <div className="hero-btns">
               <Link to="/services" className="btn-primary">Explore Services</Link>
