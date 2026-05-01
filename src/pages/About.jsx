@@ -11,7 +11,14 @@ function About() {
       <div className="about-layout">
         <AnimatedSection className="about-visual">
           <div className="about-img-box">
-            <svg width="220" height="300" viewBox="0 0 220 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            {/* Attractive Company Info Overlay */}
+            <div style={{ position: 'absolute', top: '24px', left: '24px', right: '24px', background: 'rgba(10,22,40,0.6)', backdropFilter: 'blur(10px)', border: '1px solid rgba(0,200,255,0.2)', borderRadius: '12px', padding: '16px 20px', textAlign: 'center', zIndex: 2, boxShadow: '0 8px 32px rgba(0,0,0,0.2)' }}>
+              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 700, color: 'var(--white)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '1px' }}>Wings Telecommunication</h4>
+              <p style={{ fontSize: '13px', color: 'var(--muted)', lineHeight: '1.6' }}>Specializing in elite network equipment lifecycle management, solar installations, and seamless infrastructure expansion across India.</p>
+            </div>
+
+            <svg width="220" height="300" viewBox="0 0 220 300" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginTop: '80px' }}>
               <line x1="110" y1="10" x2="60" y2="280" stroke="#00C8FF" strokeWidth="2.5" />
               <line x1="110" y1="10" x2="160" y2="280" stroke="#00C8FF" strokeWidth="2.5" />
               <line x1="110" y1="10" x2="110" y2="280" stroke="#1A6FD4" strokeWidth="1.5" strokeDasharray="6,5" />
