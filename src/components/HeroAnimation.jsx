@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export function HeroAnimation() {
   return (
     <div className="hero-right">
-      <div className="hero-anim-container">
+      <div className="hero-anim-container" style={{ transform: 'scale(1.5)', transformOrigin: 'center' }}>
         
         {/* Orbit Rings */}
         <motion.div 
