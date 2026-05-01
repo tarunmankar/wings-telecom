@@ -11,14 +11,7 @@ function About() {
       <div className="about-layout">
         <AnimatedSection className="about-visual">
           <div className="about-img-box">
-            
-            {/* Attractive Company Info Overlay */}
-            <div style={{ position: 'absolute', top: '24px', left: '24px', right: '24px', background: 'rgba(10,22,40,0.6)', backdropFilter: 'blur(10px)', border: '1px solid rgba(0,200,255,0.2)', borderRadius: '12px', padding: '16px 20px', textAlign: 'center', zIndex: 2, boxShadow: '0 8px 32px rgba(0,0,0,0.2)' }}>
-              <h4 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 700, color: 'var(--white)', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '1px' }}>Wings Telecommunication</h4>
-              <p style={{ fontSize: '13px', color: 'var(--muted)', lineHeight: '1.6' }}>Specializing in elite network equipment lifecycle management, solar installations, and seamless infrastructure expansion across India.</p>
-            </div>
-
-            <svg width="220" height="300" viewBox="0 0 220 300" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginTop: '80px' }}>
+            <svg width="220" height="300" viewBox="0 0 220 300" fill="none" xmlns="http://www.w3.org/2000/svg">
               <line x1="110" y1="10" x2="60" y2="280" stroke="#00C8FF" strokeWidth="2.5" />
               <line x1="110" y1="10" x2="160" y2="280" stroke="#00C8FF" strokeWidth="2.5" />
               <line x1="110" y1="10" x2="110" y2="280" stroke="#1A6FD4" strokeWidth="1.5" strokeDasharray="6,5" />
@@ -44,8 +37,25 @@ function About() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.2} className="about-text">
-          <div className="sec-tag">About Wings & Leadership</div>
-          <div className="sec-title" style={{ marginBottom: '22px' }}>Led by <span className="hl">Experience.</span><br />Driven by Excellence.</div>
+          <div className="sec-tag">About Wings</div>
+          <div className="sec-title" style={{ marginBottom: '22px' }}>Connecting <span className="hl">India.</span><br />Empowering Growth.</div>
+          
+          <p style={{ fontSize: '16px', color: 'var(--white)', lineHeight: 1.7, marginBottom: '16px', fontWeight: 500 }}>
+            Wings Telecommunication Services specializes in elite network equipment lifecycle management, solar installations, and seamless infrastructure expansion across India.
+          </p>
+
+          <ul className="about-list" style={{ marginBottom: '40px' }}>
+            <li><strong>Complete Telecom Solutions:</strong> Expert team dedicated to network device installation, safe site decommissioning, equipment dismantling, and rigorous preventive maintenance.</li>
+            <li><strong>Dedicated Solar Team:</strong> Separate, highly-trained division focused solely on solar panel installation and renewable energy integration for telecom sites.</li>
+            <li>Operational across All India and globally — covering both urban zones and challenging rural terrains.</li>
+            <li>Experienced with major telecom OEMs including Ericsson, Nokia, Huawei, and ZTE.</li>
+            <li>Full EHS (Environment, Health, and Safety) and employee safety compliance maintained stringently on every project.</li>
+          </ul>
+
+          <div className="sec-tag">Leadership Team</div>
+          <div className="sec-title" style={{ fontSize: 'clamp(28px, 3vw, 36px)', marginBottom: '22px' }}>Led by <span className="hl">Experience</span></div>
+
+          <p style={{ fontSize: '15px', color: '#98AAC4', lineHeight: 1.7, marginBottom: '24px' }}>Under the visionary leadership of our team, Wings Telecommunication Services operates with an exceptionally experienced group of professionals. We are deep experts in the entire lifecycle of telecom hardware.</p>
 
           <div style={{ background: 'rgba(0,200,255,0.08)', borderLeft: '3px solid var(--cyan)', padding: '18px 24px', borderRadius: '0 8px 8px 0', marginBottom: '24px' }}>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '24px', marginBottom: '4px', color: 'white' }}>Ravneet Kaur Rajpal</h3>
@@ -58,16 +68,6 @@ function About() {
             <div style={{ fontSize: '13px', color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600, marginBottom: '8px' }}>Project Management</div>
             <p style={{ fontSize: '14px', color: 'var(--light)', lineHeight: 1.6 }}>With over <strong>5+ years of core experience</strong> in the telecom industry, Aayush Kumar is a telecom professional with proven expertise in leadership and team management. He excels at driving team performance, ensuring reliable service delivery, and maintaining operational efficiency. With a focus on collaboration and continuous improvement, he contributes to achieving strong business outcomes in dynamic environments.</p>
           </div>
-
-          <p>Under the visionary leadership of <strong>Managing Director Ravneet Kaur Rajpal</strong>, Wings Telecommunication Services operates with an exceptionally experienced team of professionals. We are deep experts in the entire lifecycle of telecom hardware.</p>
-
-          <ul className="about-list">
-            <li><strong>Complete Telecom Solutions:</strong> Expert team dedicated to network device installation, safe site decommissioning, equipment dismantling, and rigorous preventive maintenance.</li>
-            <li><strong>Dedicated Solar Team:</strong> Separate, highly-trained division focused solely on solar panel installation and renewable energy integration for telecom sites.</li>
-            <li>Operational across All India and globally — covering both urban zones and challenging rural terrains.</li>
-            <li>Experienced with major telecom OEMs including Ericsson, Nokia, Huawei, and ZTE.</li>
-            <li>Full EHS (Environment, Health, and Safety) and employee safety compliance maintained stringently on every project.</li>
-          </ul>
         </AnimatedSection>
       </div>
 
