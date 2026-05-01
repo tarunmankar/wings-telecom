@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logoImg from '../assets/logo.png';
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
       <div className="footer-grid">
         <div className="footer-brand">
           <Link to="/" className="logo" style={{ marginBottom: '16px', display: 'inline-block' }}>
-            <img src="/logo.png" alt="Wings Telecom Logo" style={{ height: '48px', width: 'auto', objectFit: 'contain' }} />
+            <img src={logoImg} alt="Wings Telecom Logo" style={{ height: '48px', width: 'auto', objectFit: 'contain' }} />
           </Link>
           <p>Specialized telecom field services across All India. 400+ sites. 3+ years. EHS certified.</p>
         </div>

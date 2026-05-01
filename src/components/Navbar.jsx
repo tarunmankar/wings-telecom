@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link, useNavigate } from 'react-router-dom';
+import logoImg from '../assets/logo.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ function Navbar() {
   return (
     <nav>
       <Link to="/" className="logo" onClick={closeMenu}>
-        <img src="/logo.png" alt="Wings Telecom Logo" style={{ height: '42px', width: 'auto', objectFit: 'contain' }} />
+        <img src={logoImg} alt="Wings Telecom Logo" style={{ height: '42px', width: 'auto', objectFit: 'contain' }} />
       </Link>
 
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
