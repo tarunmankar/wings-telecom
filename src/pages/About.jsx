@@ -85,6 +85,8 @@ function About() {
           <AnimatedSection delay={0.4} className="ehs-card"><div className="icon">🚑</div><h4>Emergency Ready</h4><p>First aid trained staff and emergency response plans in place at every site.</p></AnimatedSection>
           <AnimatedSection delay={0.5} className="ehs-card"><div className="icon">📊</div><h4>Incident Reporting</h4><p>Structured near-miss reporting system to continuously improve safety practices.</p></AnimatedSection>
           <AnimatedSection delay={0.6} className="ehs-card"><div className="icon">✅</div><h4>Certified Training</h4><p>All team members undergo regular safety training and certification before deployment.</p></AnimatedSection>
+          <AnimatedSection delay={0.7} className="ehs-card"><div className="icon">♻️</div><h4>Waste Management</h4><p>Safe and compliant disposal of telecom scrap, batteries, and electronic waste.</p></AnimatedSection>
+          <AnimatedSection delay={0.8} className="ehs-card"><div className="icon">🩺</div><h4>Health Checks</h4><p>Routine medical fitness evaluations for technicians performing high-altitude work.</p></AnimatedSection>
         </div>
       </div>
     </div>
