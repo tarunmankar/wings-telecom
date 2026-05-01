@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export function HeroAnimation() {
+export function HeroAnimation({ scale = 1.5 }) {
   return (
-    <div className="hero-right">
-      <div className="hero-anim-container" style={{ transform: 'scale(1.5)', transformOrigin: 'center' }}>
+    <div className="hero-right" style={{ minHeight: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%' }}>
+      <div className="hero-anim-container" style={{ transform: `scale(${scale})`, transformOrigin: 'center' }}>
         
         {/* Orbit Rings */}
         <motion.div 

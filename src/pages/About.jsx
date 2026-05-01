@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { AnimatedSection } from '../components/AnimatedSection';
+import { HeroAnimation } from '../components/HeroAnimation';
 
 function About() {
   useEffect(() => {
@@ -11,25 +12,8 @@ function About() {
       <div className="about-layout">
         <AnimatedSection className="about-visual">
           <div style={{ position: 'relative' }}>
-            <div className="about-img-box">
-              <svg width="220" height="300" viewBox="0 0 220 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line x1="110" y1="10" x2="60" y2="280" stroke="#00C8FF" strokeWidth="2.5" />
-                <line x1="110" y1="10" x2="160" y2="280" stroke="#00C8FF" strokeWidth="2.5" />
-                <line x1="110" y1="10" x2="110" y2="280" stroke="#1A6FD4" strokeWidth="1.5" strokeDasharray="6,5" />
-                <line x1="68" y1="100" x2="152" y2="100" stroke="#00C8FF" strokeWidth="1.8" />
-                <line x1="72" y1="160" x2="148" y2="160" stroke="#00C8FF" strokeWidth="1.8" />
-                <line x1="77" y1="220" x2="143" y2="220" stroke="#00C8FF" strokeWidth="1.8" />
-                <line x1="60" y1="280" x2="160" y2="280" stroke="#00C8FF" strokeWidth="3.5" />
-                <circle cx="110" cy="10" r="7" fill="#00C8FF" />
-                <circle cx="110" cy="10" r="13" fill="none" stroke="#00C8FF" strokeWidth="1" opacity="0.3" />
-                <line x1="86" y1="12" x2="60" y2="38" stroke="#00C8FF" strokeWidth="1.8" />
-                <line x1="134" y1="12" x2="160" y2="38" stroke="#00C8FF" strokeWidth="1.8" />
-                <line x1="110" y1="3" x2="110" y2="-8" stroke="#00C8FF" strokeWidth="2" />
-                <circle cx="70" cy="100" r="3" fill="#1A6FD4" />
-                <circle cx="150" cy="100" r="3" fill="#1A6FD4" />
-                <circle cx="73" cy="160" r="3" fill="#1A6FD4" />
-                <circle cx="147" cy="160" r="3" fill="#1A6FD4" />
-              </svg>
+            <div className="about-img-box" style={{ padding: '0', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <HeroAnimation scale={1.1} />
             </div>
             <div className="about-float">
               <div className="num">5+</div>
