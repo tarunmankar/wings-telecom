@@ -6,14 +6,8 @@ function Footer() {
     <footer>
       <div className="footer-grid">
         <div className="footer-brand">
-          <Link to="/" className="logo">
-            <div className="logo-icon">
-              <svg viewBox="0 0 42 42" fill="none">
-                <polygon points="21,2 40,12 40,30 21,40 2,30 2,12" fill="#0F1F3D" stroke="#00C8FF" strokeWidth="1.5"/>
-                <text x="21" y="27" textAnchor="middle" fill="white" fontSize="16" fontWeight="700" fontFamily="Rajdhani,sans-serif">W</text>
-              </svg>
-            </div>
-            <div className="logo-text">Wings<span>Telecommunication Services</span></div>
+          <Link to="/" className="logo" style={{ marginBottom: '16px', display: 'inline-block' }}>
+            <img src="/logo.png" alt="Wings Telecom Logo" style={{ height: '48px', width: 'auto', objectFit: 'contain' }} />
           </Link>
           <p>Specialized telecom field services across All India. 400+ sites. 3+ years. EHS certified.</p>
         </div>
