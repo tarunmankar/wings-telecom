@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-grid">
         <div className="footer-brand">
           <Link to="/" className="logo" style={{ marginBottom: '16px', display: 'inline-block' }}>
-            <img src={logoImg} alt="Wings Telecom Logo" style={{ height: '48px', width: 'auto', objectFit: 'contain' }} />
+            <img src={logoImg} alt="Wings Telecom Logo" style={{ height: '64px', width: 'auto', objectFit: 'contain' }} />
           </Link>
           <p>Specialized telecom field services across All India. 400+ sites. 3+ years. EHS certified.</p>
         </div>

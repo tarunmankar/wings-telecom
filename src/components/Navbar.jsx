@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav>
       <Link to="/" className="logo" onClick={closeMenu}>
-        <img src={logoImg} alt="Wings Telecom Logo" style={{ height: '42px', width: 'auto', objectFit: 'contain' }} />
+        <img src={logoImg} alt="Wings Telecom Logo" style={{ height: '54px', width: 'auto', objectFit: 'contain' }} />
       </Link>
 
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
