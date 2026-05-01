@@ -10,7 +10,7 @@ function Footer() {
           <Link to="/" className="logo" style={{ marginBottom: '16px', display: 'inline-block' }}>
             <img src={logoImg} alt="Wings Telecom Logo" style={{ height: '64px', width: 'auto', objectFit: 'contain' }} />
           </Link>
-          <p>Specialized telecom field services across All India. 400+ sites. 3+ years. EHS certified.</p>
+          <p>Specialized telecom field services across All India • 400+ sites • 5+ years • EHS certified</p>
         </div>
         
         <div className="footer-col">
