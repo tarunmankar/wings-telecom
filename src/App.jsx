@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -10,7 +10,7 @@ import Careers from './pages/Careers';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/wings-telecom">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
