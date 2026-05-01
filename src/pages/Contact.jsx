@@ -37,7 +37,7 @@ function Contact() {
           <div className="sec-tag">Get In Touch</div>
           <div className="sec-title" style={{marginBottom:'44px',fontSize:'36px'}}>Let's <span className="hl">Build</span> Together.</div>
           <div className="ci-item"><div className="lbl">Company</div><div className="val">Wings Telecommunication Services</div></div>
-          <div className="ci-item"><div className="lbl">MD</div><div className="val">Ravneet Kaur Rajpal</div></div>
+          <div className="ci-item"><div className="lbl">Managing Director</div><div className="val">Ravneet Kaur Rajpal</div></div>
           <div className="ci-item"><div className="lbl">Project Management</div><div className="val">Aayush Kumar</div></div>
           <div className="ci-item"><div className="lbl">Operations</div><div className="val">All India</div></div>
           <div className="ci-item"><div className="lbl">Phone</div><div className="val"><a href="tel:+918770554404">+91 877 055 4404</a></div></div>

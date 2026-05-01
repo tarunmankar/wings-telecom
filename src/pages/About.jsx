@@ -40,13 +40,19 @@ function About() {
           <div className="sec-tag">About Wings & Leadership</div>
           <div className="sec-title" style={{ marginBottom: '22px' }}>Led by <span className="hl">Experience.</span><br />Driven by Excellence.</div>
 
+          <div style={{ background: 'rgba(0,200,255,0.08)', borderLeft: '3px solid var(--cyan)', padding: '18px 24px', borderRadius: '0 8px 8px 0', marginBottom: '24px' }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '24px', marginBottom: '4px', color: 'white' }}>Ravneet Kaur Rajpal</h3>
+            <div style={{ fontSize: '13px', color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '1.5px', fontWeight: 700, marginBottom: '12px' }}>Managing Director</div>
+            <p style={{ fontSize: '15px', color: 'var(--light)', lineHeight: 1.7 }}>As the Managing Director of Wings Telecommunication Services, <strong>Ravneet Kaur Rajpal</strong> is the visionary force driving the company's nationwide operations and strategic growth. With a profound commitment to excellence and innovation, she steers the organization towards delivering world-class telecom infrastructure solutions. Under her dynamic leadership, Wings has established itself as a trusted partner for India's leading telecom operators, maintaining uncompromising standards in operational efficiency, safety, and sustainable business practices.</p>
+          </div>
+
           <div style={{ background: 'rgba(26,111,212,0.1)', borderLeft: '3px solid var(--cyan)', padding: '16px 20px', borderRadius: '0 8px 8px 0', marginBottom: '24px' }}>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '22px', marginBottom: '4px' }}>Aayush Kumar</h3>
             <div style={{ fontSize: '13px', color: 'var(--cyan)', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 600, marginBottom: '8px' }}>Project Management</div>
             <p style={{ fontSize: '14px', color: 'var(--light)', lineHeight: 1.6 }}>With over <strong>5+ years of core experience</strong> in the telecom industry, Aayush Kumar is a telecom professional with proven expertise in leadership and team management. He excels at driving team performance, ensuring reliable service delivery, and maintaining operational efficiency. With a focus on collaboration and continuous improvement, he contributes to achieving strong business outcomes in dynamic environments.</p>
           </div>
 
-          <p>Under the leadership of <strong>MD Ravneet Kaur Rajpal</strong>, Wings Telecommunication Services operates with an exceptionally experienced team of professionals. We are deep experts in the entire lifecycle of telecom hardware.</p>
+          <p>Under the visionary leadership of <strong>Managing Director Ravneet Kaur Rajpal</strong>, Wings Telecommunication Services operates with an exceptionally experienced team of professionals. We are deep experts in the entire lifecycle of telecom hardware.</p>
 
           <ul className="about-list">
             <li><strong>Complete Telecom Solutions:</strong> Expert team dedicated to network device installation, safe site decommissioning, equipment dismantling, and rigorous preventive maintenance.</li>
